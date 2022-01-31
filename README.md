@@ -1,6 +1,6 @@
 # Calendar Scheduler - React Application Project
 
-[Link] (https://infallible-payne-644c84.netlify.app/)
+[Link](https://infallible-payne-644c84.netlify.app/)
 
 <p>• A front end web application built with React and the react-big-calendar library.</p>
 <p>• Material-ui library was utilized to create textfields for adding and editing appointments.</p>
@@ -16,7 +16,7 @@
 ## Views
 <br><br>
 <p align="center">
-    <img src="https://github.com/taylorsam209/calendar-scheduler/blob/master/src/assets/overview.png" width="700">
+    <img src="https://github.com/taiwo2/calendar-schduler/blob/main/src/assets/overview.png" width="700">
 </p> 
 <p align="center">
     Front page with no appointments set.
@@ -24,7 +24,7 @@
 
 <br><br>
 <p align="center">
-    <img src="https://github.com/taylorsam209/calendar-scheduler/blob/master/src/assets/meeting.png" width="700">
+    <img src="https://github.com/taiwo2/calendar-schduler/blob/main/src/assets/meeting.png" width="700">
 </p> 
 <p align="center">
     Appointment booking modal with Material-UI
@@ -32,7 +32,7 @@
 
 <br><br>
 <p align="center">
-    <img src="https://github.com/taylorsam209/calendar-scheduler/blob/master/src/assets/time.png" width="700">
+    <img src="https://github.com/taiwo2/calendar-schduler/blob/main/src/assets/time.png" width="700">
 </p> 
 <p align="center">
     Calendar view with appointments set.
@@ -40,7 +40,7 @@
 
 <br><br>
 <p align="center">
-    <img src="https://github.com/taylorsam209/calendar-scheduler/blob/master/src/assets/calendar-time.PNG" width="700">
+    <img src="https://github.com/taiwo2/calendar-schduler/blob/main/src/assets/calendar-time.PNG" width="700">
 </p>
 <p align="center">
     Material-UI Time Picker
@@ -48,7 +48,7 @@
 
 <br><br>
 <p align="center">
-    <img src="https://github.com/taylorsam209/calendar-scheduler/blob/master/src/assets/agenda.png" width="700">
+    <img src="https://github.com/taiwo2/calendar-schduler/blob/main/src/assets/agenda.png" width="700">
 </p> 
 <p align="center">
     Agenda view that lists all appointments
