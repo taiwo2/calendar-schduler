@@ -1,6 +1,6 @@
 # Calendar Scheduler - React Application Project
 
-Link https://taylorsam209.github.io/calendar-scheduler/
+[Link] (https://infallible-payne-644c84.netlify.app/)
 
 <p>• A front end web application built with React and the react-big-calendar library.</p>
 <p>• Material-ui library was utilized to create textfields for adding and editing appointments.</p>
@@ -28,14 +28,6 @@ Link https://taylorsam209.github.io/calendar-scheduler/
 </p> 
 <p align="center">
     Appointment booking modal with Material-UI
-</p> 
-
-<br><br>
-<p align="center">
-    <img src="https://github.com/taylorsam209/calendar-scheduler/blob/master/src/assets/calendar-edit.PNG" width="700">
-</p> 
-<p align="center">
-    Appointment editing modal
 </p> 
 
 <br><br>
