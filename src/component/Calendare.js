@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import BigCalendar from "react-big-calendar";
 import { Calendar, momentLocalizer  } from 'react-big-calendar'
 import moment from "moment";
 import Dialog from "material-ui/Dialog";
@@ -25,19 +24,6 @@ class Calendare extends Component {
     };
     this.handleClose = this.handleClose.bind(this);
   }
-
-  // componentDidMount(){
-  //     this.getCachedEvents();
-  // }
-
-  // getCachedEvents(){
-  //   const cachedEvents = localStorage.getItem("cachedEvents");
-  //   console.log("Cached Events", JSON.parse(cachedEvents));
-  //   if(cachedEvents){
-  //       this.setState({events: JSON.parse(cachedEvents)})
-  //   }
-  //   return;
-  // }
 
   //closes modals
   handleClose() {
@@ -90,7 +76,6 @@ class Calendare extends Component {
     let appointment = { title, start, end, desc };
     let events = this.state.events.slice();
     events.push(appointment);
-    // localStorage.setItem("cachedEvents", JSON.stringify(events));
     this.setState({ events });
   }
 
@@ -103,18 +88,15 @@ class Calendare extends Component {
     updatedEvent[index].desc = desc;
     updatedEvent[index].start = start;
     updatedEvent[index].end = end;
-    // localStorage.setItem("cachedEvents", JSON.stringify(updatedEvent));
     this.setState({
       events: updatedEvent
     });
   }
 
-  //  filters out specific event that is to be deleted and set that variable to state
   deleteEvent() {
     let updatedEvents = this.state.events.filter(
       event => event["start"] !== this.state.start
     );
-    // localStorage.setItem("cachedEvents", JSON.stringify(updatedEvents));
     this.setState({ events: updatedEvents });
   }
 
@@ -139,7 +121,7 @@ class Calendare extends Component {
         label="Confirm Edit"
         primary={true}
         keyboardFocused={true}
-        onClick={this.handleClose}
+        // onClick={this.handleClose}
         onClick={() => {
           this.updateEvent(); this.handleClose();
         }}
