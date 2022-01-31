@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import BigCalendar from "react-big-calendar";
+import { Calendar, momentLocalizer  } from 'react-big-calendar'
 import moment from "moment";
 import Dialog from "material-ui/Dialog";
 import FlatButton from "material-ui/FlatButton";
@@ -7,10 +8,9 @@ import TextField from "material-ui/TextField";
 import TimePicker from "material-ui/TimePicker";
 
 import "react-big-calendar/lib/css/react-big-calendar.css"
+const localizer = momentLocalizer(moment)
 
-BigCalendar.momentLocalizer(moment);
-
-class Calendar extends Component {
+class Calendare extends Component {
   constructor() {
     super();
     this.state = {
@@ -132,7 +132,7 @@ class Calendar extends Component {
         secondary={true}
         keyboardFocused={true}
         onClick={() => {
-          this.deleteEvent(), this.handleClose();
+          this.deleteEvent(); this.handleClose();
         }}
       />,
       <FlatButton
@@ -141,7 +141,7 @@ class Calendar extends Component {
         keyboardFocused={true}
         onClick={this.handleClose}
         onClick={() => {
-          this.updateEvent(), this.handleClose();
+          this.updateEvent(); this.handleClose();
         }}
       />
     ];
@@ -152,14 +152,15 @@ class Calendar extends Component {
         primary={true}
         keyboardFocused={true}
         onClick={() => {
-          this.setNewAppointment(), this.handleClose();
+          this.setNewAppointment(); this.handleClose();
         }}
       />
     ];
     return (
       <div id="Calendar">
         {/* react-big-calendar library utilized to render calendar*/}
-        <BigCalendar
+        <Calendar
+          localizer={localizer}
           events={this.state.events}
           views={["month", "week", "day", "agenda"]}
           timeslots={2}
@@ -255,4 +256,4 @@ class Calendar extends Component {
   }
 }
 
-export default Calendar;
+export default Calendare;

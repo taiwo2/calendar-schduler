@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Calendar from './component/Calendar';
+import Calendare from './component/Calendare';
 function App() {
   return (
     <div className="App">
       <h1>Calendar Scheduler App</h1>
-        <Calendar />
+        <Calendare />
     </div>
   );
 }
