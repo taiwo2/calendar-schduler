@@ -53,4 +53,25 @@
 <p align="center">
     Agenda view that lists all appointments
 </p> 
+👤 **Taiwo Adetona**
 
+- Github: [@taiwo2](https://github.com/taiwo2)
+
+- LinkedIn: [Taiwo Adetona](https://www.linkedin.com/in/taiwo-adetona/)
+
+- Twitter: [@TaiwoAdetona4](https://twitter.com/TaiwoAdetona4/)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+## 📝 License
+
+This project is a capstone project. All rights are reserved for Taiwo.
